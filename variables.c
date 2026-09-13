@@ -1,11 +1,11 @@
-// WRITE A PROGRAM TO CALCULATE AREA OF A SQUARE.
+//WRITE A PROGRAM TO CALCULATE AREA OF A CIRCLE.
 
 #include<stdio.h>
 int main(){
-    int side;
-    printf("enter side of square\n");
-    scanf("%d",&side);
-    printf("area of square is %d\n",side *side);
+    float radius;
+    printf("enter radius of circle\n");
+    scanf("%f",&radius);
+    printf("area of circle is %f\n",3.14*radius*radius);
     return 0;
-    
+
 }
